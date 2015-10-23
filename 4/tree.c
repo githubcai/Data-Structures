@@ -8,7 +8,7 @@ SearchTree MakeEmpty(SearchTree T){
         MakeEmpty(T->Right);
         free(T);
     }
-    return NUll;
+    return NULL;
 }
 
 Position Find(ElementType X, SearchTree T){
@@ -40,7 +40,7 @@ Position FindMax(SearchTree T){
             T = T->Right;
         }
     }
-    return T
+    return T;
 }
 
 SearchTree Insert(ElementType X, SearchTree T){
